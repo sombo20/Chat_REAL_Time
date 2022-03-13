@@ -1,0 +1,266 @@
+/*formulario login and cadastro*/
+form .container {
+	display:flex;
+	flex-direction:column;
+	width:100%;
+	justify-content:center;
+	align-items:center;
+	height:100%;
+	margin-top:5rem;
+}
+
+form .container .item .itens{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   flex-direction:row;
+}
+
+form .container .item .itens input{
+	padding:10px;
+	border:1px solid #f0f0f0;
+	outline:none;
+}
+
+form .container .item .itens span{
+	padding:10px;
+	border:1px solid #f0f0f0;
+	background:none;
+	width:18px;
+	outline:none;
+}
+
+form .container .item .itens{
+	margin-bottom:20px;
+}
+
+form .container .item{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+
+form .container .item label {
+  font-family:Courier new,monospace;
+  margin-bottom:12px;
+  font-size:22px;
+}
+
+form .container .item .submit .btn{
+	background:;
+	width:100px;
+	height:32px;
+	border:1px solid #f0f0f0;
+	border-radius:8px;
+	background:rgb(239,188,134);
+	color:#fff;
+	outline:none;
+}
+
+a{
+ text-decoration:underline;
+ color:#000;
+}
+
+/*fim estilo formulario*/
+
+/*chat style*/
+body{
+  padding:0px;
+  margin:0px;
+}
+	
+.chat{
+	display:flex;
+	flex-direction:column;
+}
+
+/*header style*/
+	
+.chat .header{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:space-around;
+	width:100%;
+	height:50px;
+	background:rgb(43,174,199);
+	position:absolute
+	top:0px;
+	left:0px;
+}
+
+.chat .header .name{
+   width:25px;
+   height:25px;
+   background:rgb(200,255,200);
+   border-radius:25px;
+   text-align:center;
+   margin-top:10px;
+   margin-left:-10px;
+   color:#000;
+   box-shadow:0px 0px 2px #000;
+}
+
+.chat .header .name span{
+  position:relative;
+  top:2px;
+}
+
+.chat .header .title{
+   text-align:center;
+   margin-top:10px;
+   margin-left:-10px;
+   font-family:Arial,sans-serif;
+}
+
+.chat .header .online{
+   text-align:center;
+   margin-top:10px;
+   margin-left:-10px;
+   color:rgb(200,255,200);
+}
+
+.chat .header .logout{
+   text-align:center;
+   margin-top:10px;
+   margin-left:-10px;
+   color:rgb(200,255,200);
+}
+
+.chat .header .logout a span{
+	color:rgb(200,255,200);
+}
+/*fim header style*/
+
+/*style section iframe */
+.mensagem {
+  display:flex;
+  flex-direction:column;
+  position:relative;
+  top:25px;
+  margin-bottom:25px;
+}
+
+.mensagem .user{
+	font-family:Tahoma,Arial,sans-serif;
+	margin-left:12px;
+	margin-bottom:3px;
+}
+
+.mensagem .texto {
+    position:relative;
+    left:25px;
+	max-width:50%;
+	max-height:12%;
+	background:red;
+	padding:14px;
+	color:#fff;
+	border-radius:6px;
+}
+
+.mensagem .imagem{
+    position:relative;
+    left:25px;
+	max-width:50%;
+	max-height:12%;
+	padding:14px;
+	color:#fff;
+	border-radius:6px;
+}
+
+.mensagem .imagem img{
+	width:100%;
+	height:100%;
+}
+
+.chat .section iframe{
+   border:1px solid #fff;
+}
+/*fim iframe section php*/
+
+/*section write sms footer*/
+.footer{
+	width:100%;
+	background:rgb(43,174,199);
+	position:relative;
+	top:10px;
+	display:flex;
+	flex-direction:column;
+}
+
+.footer form .all {
+	display:flex;
+	flex-direction:row;
+}
+
+.footer form .all .write .sms{
+	width:220px;
+	height:56px;
+	border:1px solid #f0f0f0;
+	outline:none;
+}
+
+.footer form .all .itens{
+ display:flex;
+ flex-direction:row;
+ margin-top:15px;
+}
+
+
+.footer form .all .itens .foto{margin-left:px;}
+.footer form .all .itens .btn button{
+	background:none;
+	border:none;
+	margin-left:px;
+	color:rgb(200,255,200);
+	outline:none;
+}
+
+.footer form .all .itens .foto span{
+	color:rgb(200,255,200);
+}
+/*fim style footer sms send*/
+
+
+/*modal */
+.modal{
+	position:absolute;
+	top:0px;
+	left:0px;
+/*	display:flex;*/
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	height:35rem;
+	color:#000;
+	background:rgba(0,0,0,0.78);
+	display:none;
+}
+
+.modal form .uploader{
+	padding:15px;
+	background:#fff;
+	text-align:center;
+	margin:10px;
+	border-radius:4px;
+}
+
+.modal form .uploader input {
+  border:none;
+  background:#fff;
+  margin-bottom:12px;
+}
+
+.modal form .uploader .submit,button{
+   width:100px;
+   height:30px;
+   outline:none;
+   background:rgb(200,255,200);
+   border:none;
+}
+/*fim.modal*/
+
+/*fim style chat*/
